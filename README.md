@@ -4,9 +4,9 @@ A SQL-driven analysis of hospital bed capacity, staffing, and patient satisfacti
 
 ## Project Overview
 
-Hospitals constantly balance limited beds, staff schedules, and patient demand. This project analyzes a hospital operations dataset sourced from Kaggle to answer 15 business questions — ranging from basic admission counts to advanced trend and relationship analysis using SQL window functions and CTEs.
+Hospitals constantly balance limited beds, staff schedules, and patient demand. This project analyzes a hospital operations dataset sourced from [Kaggle](https://www.kaggle.com/datasets/jaderz/hospital-beds-management) to answer 15 business questions — ranging from basic admission counts to advanced trend and relationship analysis using SQL window functions and CTEs.
 
-**Tech Stack:** MySQL 8.0 · MySQL Workbench · Kaggle Dataset
+**Tech Stack:** MySQL 8.0 · MySQL Workbench · [Kaggle Dataset](https://www.kaggle.com/datasets/jaderz/hospital-beds-management)
 
 ## Database Schema
 
