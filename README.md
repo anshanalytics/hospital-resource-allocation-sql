@@ -180,7 +180,6 @@ A full walkthrough (all 15 queries with results and business insights) is availa
 ## Author
 
 **Ansh Sharma**
-
 [LinkedIn](https://www.linkedin.com/in/ansh-sharma-02445b360/) · [Email](mailto:dansh4270@gmail.com)
 
     
