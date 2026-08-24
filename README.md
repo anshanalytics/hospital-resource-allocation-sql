@@ -6,26 +6,26 @@ A SQL-driven analysis of hospital bed capacity, staffing, and patient satisfacti
 
 Hospitals constantly balance limited beds, staff schedules, and patient demand. This project analyzes a hospital operations dataset sourced from Kaggle to answer 15 business questions — ranging from basic admission counts to advanced trend and relationship analysis using SQL window functions and CTEs.
 
-**Tech Stack:** MySQL 8.0 · MySQL Workbench · [Kaggle Dataset](https://www.kaggle.com/datasets/jaderz/hospital-beds-management)
+**Tech Stack:** MySQL 8.0 · MySQL Workbench · Kaggle Dataset
 
 ## Database Schema
 
 | Table | Rows | Columns |
-|---|---:|---|
+|---|---|---|
 | `patients` | 988 | patient_id, name, age, arrival_date, departure_date, service, satisfaction |
 | `staff` | 110 | staff_id, staff_name, role, service |
 | `services_weekly` | 208 | week, month, service, available_beds, patients_request, patients_admitted, patients_refused, patient_satisfaction, staff_morale, event |
 | `staff_schedule` | 6,552 | week, staff_id, staff_name, role, service, present |
 
-**Total: 7,858 rows across 4 relational tables**
+**Total:** 7,858 rows across 4 relational tables
 
 ## Data Cleaning
 
-- Removed 12 rows with invalid `age = 0` from the `patients` table (~1.2% of data).
-- Cleaning query: `sql/03_data_cleaning.sql`
-- ## Repository Structure
+Removed 12 rows with invalid `age = 0` from the `patients` table (~1.2% of data).
 
-```text
+Cleaning query: [`03_data_cleaning.sql`](./03_data_cleaning.sql)
+
+## Repository Structure
 ├── 01_schema.sql
 ├── 02_data_verification.sql
 ├── 03_data_cleaning.sql
@@ -38,6 +38,7 @@ Hospitals constantly balance limited beds, staff schedules, and patient demand. 
 ├── services_weekly.csv
 ├── staff.csv
 └── staff_schedule.csv
+
 
 ## SQL Techniques Used
 
@@ -170,6 +171,7 @@ SELECT
 FROM ranked_data
 ORDER BY combined_rank_score ASC
 LIMIT 3;
+```
 
 ## Presentation
 
