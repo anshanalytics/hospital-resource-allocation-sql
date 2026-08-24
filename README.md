@@ -173,13 +173,12 @@ LIMIT 3;
 
 ## Presentation
 
-A full walkthrough (all 15 queries with results and business insights) is available in [`/presentation`](presentation/) — built for interview and portfolio use.
+A full walkthrough (all 15 queries with results and business insights) is available in the project presentation — built for interview and portfolio use.
 
-**[View the Project Presentation](presentation/Hospital_SQL_Project_Presentation.pptx)**
+**[View the Project Presentation](./Hospital_SQL_Project_Presentation.pptx)**
 
 ## Author
 
 **Ansh Sharma**
-[LinkedIn](https://www.linkedin.com/in/ansh-sharma-02445b360/) · [Email](mailto:dansh4270@gmail.com)
 
-    
+[LinkedIn](https://www.linkedin.com/in/ansh-sharma-02445b360/) · [Email](mailto:dansh4270@gmail.com)
