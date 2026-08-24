@@ -25,22 +25,19 @@ Hospitals constantly balance limited beds, staff schedules, and patient demand. 
 - Cleaning query: `sql/03_data_cleaning.sql`
 - ## Repository Structure
 
-├── sql/
-│   ├── 01_schema.sql
-│   ├── 02_data_verification.sql
-│   ├── 03_data_cleaning.sql
-│   ├── 04_admissions_satisfaction.sql
-│   ├── 05_capacity_staffing.sql
-│   └── 06_trend_relationship_analysis.sql
-│
-├── data/
-│   ├── patients.csv
-│   ├── staff.csv
-│   ├── services_weekly.csv
-│   └── staff_schedule.csv
-│
-└── presentation/
-    └── Hospital_SQL_Project_Presentation.pptx
+```text
+├── 01_schema.sql
+├── 02_data_verification.sql
+├── 03_data_cleaning.sql
+├── 04_admissions_satisfaction.sql
+├── 05_capacity_staffing.sql
+├── 06_trend_correlation_analysis.sql
+├── Hospital_SQL_Project_Presentation.pptx
+├── README.md
+├── patients.csv
+├── services_weekly.csv
+├── staff.csv
+└── staff_schedule.csv
 
 ## SQL Techniques Used
 
