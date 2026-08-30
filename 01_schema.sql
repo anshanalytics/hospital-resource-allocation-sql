@@ -1,7 +1,6 @@
 CREATE DATABASE IF NOT EXISTS hospital_db;
 USE hospital_db;
-CREATE DATABASE IF NOT EXISTS hospital_db;
-USE hospital_db;
+
 
 CREATE TABLE patients (
     patient_id VARCHAR(50) PRIMARY KEY AUTO_INCREMENT,
